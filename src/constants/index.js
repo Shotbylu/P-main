@@ -215,68 +215,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Visual Lab",
+    name: "Java Moteur de Recherche",
     description:
-"Visual Lab is a user-friendly tool that allows data scientists to upload datasets, automatically visualize and profile them, and build, train, and download machine learning models for regression and classification tasks, all without needing to write code. ",    tags: [
+"ava-based search engine clone optimized for handling folders with over 50,000 files containing multiple lines of text. ",    tags: [
       {
-        name: "Python",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "Machine Learning",
+        name: "optimisation",
         color: "green-text-gradient",
       },
       {
-        name: "Visualisation",
+        name: "OOP",
         color: "pink-text-gradient",
       },
     ],
     image: moteur,
-    source_code_link: "https://www.linkedin.com/posts/lungelo-sibisi-6745aa21b_webappdevelopment-datavisualization-mlprojects-activity-7266689717465743360-ToQx?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdwXTgBHE8qq_054W6KCh8JNRX-M8NBYKE",
+    source_code_link: "https://github.com/",
   },
 
   {
-    name: "Blog AP",
+    name: "Movie ticket system J2EE",
     description:
-"My personal blog, built with Next.js and Tailwind CSS, simplifies sharing coding insights through Bits-of-Codes. It renders markdown content seamlessly, supports dark mode, and streamlines writing and publishing posts",    tags: [
+"A 𝑾𝒆𝒃 𝑨𝒑𝒑𝒍𝒊𝒄𝒂𝒕𝒊𝒐𝒏 for Cinema Seat Reservation, designed to be deployed on a 𝑾𝒊𝒍𝒅𝒇𝒍𝒚 application server",    tags: [
       {
-        name: "JavaScript",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "Next.js",
+        name: "J2EE",
         color: "green-text-gradient",
       },
       {
-        name: "TailwindCSS",
+        name: "EJB",
         color: "pink-text-gradient",
       },
       {
-        name: "Techblog",
+        name: "Wildfly",
         color: "pink-text-gradient",
       },
     ],
     image: cinema ,
-    source_code_link: "https://blog-app-theta-ebon.vercel.app/",
+    source_code_link: "https://github.com/",
   },
   {
-    name: "Motion detection ping-pong",
-    description:"A motion-controlled Ping Pong game that uses real-time computer vision and motion detection",    tags: [
+    name: "Olympics medal prediction",
+    description:"Country Medal Prediction Model This project uses machine learning to predict the number of medals a country will win in future international competitions",    tags: [
       {
         name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "opencv",
+        name: "LinearRegression",
         color: "green-text-gradient",
       },
       {
-        name: "supervised learning",
-        color: "pink-text-gradient",
+@@ -275,7 +276,7 @@ const projects = [
       },
     ],
     image: medal,
-    source_code_link: "https://www.linkedin.com/posts/lungelo-sibisi-6745aa21b_my-latest-project-a-ping-pong-game-that-activity-7300142208844730369-9p9E?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdwXTgBHE8qq_054W6KCh8JNRX-M8NBYKE",
+    source_code_link: "https://github.com/",
   },
   {
     name: "Hand Gesture-Based Zoom with OpenCV",
