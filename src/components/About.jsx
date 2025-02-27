@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -8,17 +8,18 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt 
+    tiltMaxAngleX={45}
+    tiltMaxAngleY={45}
+    scale={1.05}
+    transitionSpeed={450}
+    className='xs:w-[250px] w-full'
+  >
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
@@ -47,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-I’m Lungelo, a Communications, Media & Marketing Analytics Specialist. I have a deep passion for the AI field,  Natural Language Processing (NLP), Large Language Models (LLM), and Data Science. I’m fascinated by how technologies like DeepSeek and ChatGPT work and am eager to study and understand their underlying mechanisms. I love exploring these cutting-edge fields, working on related projects, and applying my skills to tackle complex challenges in AI. Always curious and driven by learning, I strive to contribute to the evolving world of artificial intelligence.
+I'm Lungelo, a Communications, Media & Marketing Analytics Specialist. I have a deep passion for the AI field,  Natural Language Processing (NLP), Large Language Models (LLM), and Data Science. I'm fascinated by how technologies like DeepSeek and ChatGPT work and am eager to study and understand their underlying mechanisms. I love exploring these cutting-edge fields, working on related projects, and applying my skills to tackle complex challenges in AI. Always curious and driven by learning, I strive to contribute to the evolving world of artificial intelligence.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
