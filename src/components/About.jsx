@@ -48,7 +48,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-Hey everyone, I’m Lungelo, a comms strategist by day with a passion for AI, NLP, LLMs, and Data Science. I’m always curious about how technologies like DeepSeek and ChatGPT work and love digging into their mechanics. Learning, building, and solving problems in AI keeps me going. Right after High School before diving into corporate comms and strategy, I spent three years in the trenches of a call center, making sales and learning firsthand how to connect, persuade, and deliver value. That foundation shaped everything I do today.
+Hey everyone, I’m Lungelo, a comms strategist by day with a passion for AI, NLP, LLMs, and Data Science. I’m always curious about how technologies like DeepSeek and ChatGPT work and love digging into their mechanics. Learning, building, and solving problems in AI keeps me going. Right after High School before diving into corporate comms and strategy, I spent three years in the trenches of a call center, making sales and learning firsthand how to connect, persuade, and deliver value. That foundation shaped everything I do today, It taught me resilience, adaptability, and the power of clear, impactful communication—skills that now fuel my work in both marketing strategy and AI-driven innovation.
+
+Today, I blend storytelling with data, crafting compelling narratives while exploring the limitless possibilities of AI and automation. Whether it's building marketing campaigns, optimizing communications, or diving deep into machine learning models, I’m always pushing forward, learning, and finding new ways to create value.
+
+Let’s connect, collaborate, and build something great! 🚀.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
