@@ -154,54 +154,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Baccalauréat Mathématique",
-    company_name: "collége/Lycée Pilote Tataouine ",
+    title: "Coporate Communications Specialist",
+    company_name: "SASOL ",
     icon: bac,
     iconBg: "#E6DEDD",
-    date: "sep 2014 - juin 2021",
-    points: ["Moyenne : 15.55",
+    date: "Jun 2024 - ",
+    points: ["Present",
       
     ],
   },
   {
-    title: "Cycle Préparatoire",
-    company_name: "IPEIT",
+    title: "End-User Computing Specialist",
+    company_name: "SOUTH32-Hillside",
     icon: ipeit,
     iconBg: "#E6DEDD",
-    date: "Sep 2021 - Juin 2023",
-    points: ["MATH PHYISIQUE ",
-      "RANG 293",
+    date: "Jul 2023 - Jun 2024",
+    points: ["Richardsbay, KZN ",
+      "On site",
       "Check my LinkedIn for more details"
     ],
   },
   {
-    title: "Cycle Ingénieur : Informatique",
-    company_name: "ENIT",
+    title: "Media & Marketing Officer",
+    company_name: "Empangeni High School",
     icon: enit,
     iconBg: "#E6DEDD",
-    date: "Sep 2023 - 2026",
-    points: ["Currently Studying - 2nd Year",
+    date: "Jan 2023 - Jun 2023",
+    points: ["Empangeni, KZN",
+      "On site",   
       "Check my LinkedIn for more details"
     ],
   },
   {
-    title: "Manageur Logistique pour : ENIT GOT THE FLAG 2.0",
-    company_name: "G2FOSS",
+    title: "Sales Agent",
+    company_name: "CCI global",
     icon: g2foss,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - April 2024",
-    points: ["I held the position of Logistics Manager for ENIT GOT THE FLAG 2.0, where I coordinated resource management, task organization, and logistical follow-up to ensure the smooth execution of the event.",
+    date: "Apr 2019 - Oct 2021",
+    points: ["Durban, KZN",
       "Check my LinkedIn for more details"
     ],
   },
   {
-    title: "Stage d'observation ",
-    company_name: "Tunisie Télécome",
+    title: "Volunteer ",
+    company_name: "WWF South Africa",
     icon: tt,
     iconBg: "#E6DEDD",
-    date: "During July 2024",
+    date: "During July 2028",
     points: [
-      "I completed a worker internship at Tunisie Telecom, where I gained hands-on experience in radio equipment, transmission systems, energy management, and troubleshooting operations."
+      "Contributed to community outreach initiatives aimed at raising awareness about environmental issues."
       ,"Check my LinkedIn for more details",
     ],
   },
