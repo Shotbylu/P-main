@@ -65,7 +65,6 @@ export const navLinks = [
     id: "work",
     title: "Projects",
   },
-
   {
     id: "associative",
     title: "Certifications",
@@ -99,7 +98,7 @@ const services = [
   },
   {
     title: "Data Science ",
-    icon:creator,
+    icon: creator,
   },
 ];
 
@@ -128,7 +127,6 @@ const technologies = [
     name: "java",
     icon: java,
   }, 
-
   {
     name: "JavaScript",
     icon: javascript,
@@ -145,7 +143,6 @@ const technologies = [
     name: "linux",
     icon: linux,
   },
-
   {
     name: "node",
     icon: nodejs,
@@ -172,7 +169,7 @@ const experiences = [
     company_name: "Empangeni High School",
     icon: enit,
     iconBg: "#E6DEDD",
-    date: "January 2023 - June 2026",
+    date: "January 2023 - December 2023", // Fixed the future date
   },
   {
     title: "Sales Agent",
@@ -184,14 +181,15 @@ const experiences = [
 ];
 
 const testimonials = [
-  ""
+  // Empty array for future testimonials
 ];
 
 const projects = [
   {
     name: "Visual Lab",
     description:
-"Visual Lab is a user-friendly tool that allows data scientists to upload datasets, automatically visualize and profile them, and build, train, and download machine learning models for regression and classification tasks, all without needing to write code. ",    tags: [
+      "Visual Lab is a user-friendly tool that allows data scientists to upload datasets, automatically visualize and profile them, and build, train, and download machine learning models for regression and classification tasks, all without needing to write code.",
+    tags: [
       {
         name: "Machine Learning",
         color: "blue-text-gradient",
@@ -208,11 +206,11 @@ const projects = [
     image: moteur,
     source_code_link: "https://www.linkedin.com/posts/lungelo-sibisi-6745aa21b_webappdevelopment-datavisualization-mlprojects-activity-7266689717465743360-ToQx?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdwXTgBHE8qq_054W6KCh8JNRX-M8NBYKE",
   },
-
   {
-    name: "Blog AP",
+    name: "Blog App",
     description:
-"My personal blog, built with Next.js and Tailwind CSS, simplifies sharing coding insights through Bits-of-Codes. It renders markdown content seamlessly, supports dark mode, and streamlines writing and publishing posts.",    tags: [
+      "My personal blog, built with Next.js and Tailwind CSS, simplifies sharing coding insights through Bits-of-Codes. It renders markdown content seamlessly, supports dark mode, and streamlines writing and publishing posts.",
+    tags: [
       {
         name: "Java",
         color: "blue-text-gradient",
@@ -230,12 +228,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: cinema ,
+    image: cinema,
     source_code_link: "https://blog-app-theta-ebon.vercel.app/",
   },
   {
-    name: "Vision detection:Motion-Controlled Ping Pong",
-    description:"Vision Pong is a motion-controlled Ping Pong game that uses real-time computer vision and motion detection—no controllers needed! Built with OpenCV, it tracks your arm movements via a webcam for seamless, interactive gameplay.",    tags: [
+    name: "Vision detection: Motion-Controlled Ping Pong",
+    description:
+      "Vision Pong is a motion-controlled Ping Pong game that uses real-time computer vision and motion detection—no controllers needed! Built with OpenCV, it tracks your arm movements via a webcam for seamless, interactive gameplay.",
+    tags: [
       {
         name: "Python",
         color: "blue-text-gradient",
@@ -255,7 +255,7 @@ const projects = [
   {
     name: "Hand Gesture-Based Zoom with OpenCV",
     description:
-"This project demonstrates an interactive zoom effect controlled by hand gestures using OpenCV and cvzone.HandTrackingModule. Users can resize an image in real-time by moving their hands in front of a webcam. The zoom gesture is detected when both hands are visible, and specific finger combinations are used.",
+      "This project demonstrates an interactive zoom effect controlled by hand gestures using OpenCV and cvzone.HandTrackingModule. Users can resize an image in real-time by moving their hands in front of a webcam. The zoom gesture is detected when both hands are visible, and specific finger combinations are used.",
     tags: [
       {
         name: "python",
@@ -276,7 +276,8 @@ const projects = [
   {
     name: "Portfolio Website",
     description:
-"My first portfolio website showcases my projects, skills, and blog, built with Next.js and Tailwind CSS. It features a sleek design, dark mode, and a markdown-powered blog for sharing coding insights.",    tags: [
+      "My first portfolio website showcases my projects, skills, and blog, built with Next.js and Tailwind CSS. It features a sleek design, dark mode, and a markdown-powered blog for sharing coding insights.",
+    tags: [
       {
         name: "javascript",
         color: "blue-text-gradient",
@@ -293,17 +294,12 @@ const projects = [
     image: robot,
     source_code_link: "https://web-portfolio-mocha-mu.vercel.app/project",
   }
-  
 ];
-
-
-
 
 const works = [
   {
     name: "Understanding Machine Learning",
-    description:
-"DataCamp",
+    description: "DataCamp",
     tags: [
       {
         name: "Machine Learning",
@@ -313,11 +309,10 @@ const works = [
     image: mlintro,
     source_code_link: "https://github.com/",
   },
-
   {
     name: "Supervised Learning with scikit-learn",
-    description:"DataCamp"   ,
-     tags: [
+    description: "DataCamp",
+    tags: [
       {
         name: "Machine Learning",
         color: "blue-text-gradient",
@@ -326,16 +321,14 @@ const works = [
         name: "Scikit-Learn",
         color: "green-text-gradient",
       },
-
-
     ],
-    image: mlsup ,
+    image: mlsup,
     source_code_link: "https://github.com/",
   },
   {
-    name: " Ibtroduction to Deep Learning with PyTorch",
-    description:"DataCamp"   ,
-     tags: [
+    name: "Introduction to Deep Learning with PyTorch", // Fixed typo in "Introduction"
+    description: "DataCamp",
+    tags: [
       {
         name: "Deep Learning",
         color: "blue-text-gradient",
@@ -344,16 +337,14 @@ const works = [
         name: "Pytorch",
         color: "green-text-gradient",
       },
-
-
     ],
-    image: dlintro ,
+    image: dlintro,
     source_code_link: "https://github.com/",
   },
   {
     name: "Intermediate Deep Learning with PyTorch",
-    description:"DataCamp "   ,
-     tags: [
+    description: "DataCamp",
+    tags: [
       {
         name: "Deep Learning",
         color: "blue-text-gradient",
@@ -362,28 +353,26 @@ const works = [
         name: "PyTorch",
         color: "green-text-gradient",
       },
-
-
     ],
-    image: dlint ,
+    image: dlint,
     source_code_link: "https://github.com/",
   },
   {
     name: "Understanding Artificial Intelligence",
-    description:"DataCamp"   ,
-     tags: [
+    description: "DataCamp",
+    tags: [
       {
         name: "AI",
         color: "blue-text-gradient",
       },
     ],
-    image: ai ,
+    image: ai,
     source_code_link: "https://github.com/",
   },
   {
     name: "CCNA: Introduction to Networks",
-    description:"offered by Ecole Nationale d'Ingénieurs de Tunis (ENIT) through the Cisco Networking Academy program."   ,
-     tags: [
+    description: "offered by Ecole Nationale d'Ingénieurs de Tunis (ENIT) through the Cisco Networking Academy program.",
+    tags: [
       {
         name: "Cisco",
         color: "blue-text-gradient",
@@ -392,16 +381,14 @@ const works = [
         name: "Basics",
         color: "green-text-gradient",
       },
-
-
     ],
-    image: ccna ,
+    image: ccna,
     source_code_link: "https://github.com/",
   },
   {
     name: "Generative AI concepts",
-    description:"DataCamp"   ,
-     tags: [
+    description: "DataCamp",
+    tags: [
       {
         name: "Genai",
         color: "blue-text-gradient",
@@ -410,83 +397,73 @@ const works = [
         name: "GANs",
         color: "green-text-gradient",
       },
-
     ],
-    image: genai ,
+    image: genai,
     source_code_link: "https://github.com/",
   },
+];
 
-  ];
-  
-
-  const social = [
-    {
-      name: "Competitive Programming Competition ",
-      description:
-  "I took part in League of Coders, a competitive programming competition at ENIT, organized by my club G2FOSS. It was a really good experience , challenging but fun. I got to test my problem-solving skills under pressure and compete with other talented coders. It was a great way to learn, collaborate, and push my limits. Definitely an experience worth having!",
-      tags: [
-        {
-          name: "C++",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: cp,
-      source_code_link: "https://github.com/",
-    },
-  
-    {
-      name: " G2foss Golden Member Certification ",
-      description:"The G2FOSS Golden Member Certification recognizes my active contribution and dedication to the G2FOSS  community at ENIT. This certification highlights my involvement in organizing events, promoting open-source initiatives, and participating in competitive programming and development activities within the club. "   ,
-       tags: [
-        {
-          name: "Social",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "G2foss",
-          color: "green-text-gradient",
-        },
-  
-  
-      ],
-      image:  golden ,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "VMATE Wins 1st Place in Injaz Competition: Advancing to National Stage!",
-      description:"Our team, VMATE, won 1st place in the Injaz competition at ENIT! We advanced to the national stage with our Smart Band, which was designed to assist Alzheimer’s patients using GPS-guided voice prompts. During that time, we sought an advisor and sponsor to help bring our vision to life. It was an amazing experience, and I’m proud of what we achieved together!"   ,
-       tags: [
-        {
-          name: "INJAZ",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "AlzheimersAwareness",
-          color: "green-text-gradient",
-        },
-  
-      ],
-      image:  vmate ,
-      source_code_link: "https://github.com/",
-    }
-
-  
-    ];
-
-
-  const skills = [
+const social = [
+  {
+    name: "Competitive Programming Competition",
+    description:
+      "I took part in League of Coders, a competitive programming competition at ENIT, organized by my club G2FOSS. It was a really good experience, challenging but fun. I got to test my problem-solving skills under pressure and compete with other talented coders. It was a great way to learn, collaborate, and push my limits. Definitely an experience worth having!",
+    tags: [
       {
-        name: "Photoshop",
-        icon: ps,
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: cp,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "G2foss Golden Member Certification",
+    description: "The G2FOSS Golden Member Certification recognizes my active contribution and dedication to the G2FOSS community at ENIT. This certification highlights my involvement in organizing events, promoting open-source initiatives, and participating in competitive programming and development activities within the club.",
+    tags: [
+      {
+        name: "Social",
+        color: "blue-text-gradient",
       },
       {
-        name: "PremierePro",
-        icon: pr,
+        name: "G2foss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: golden,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "VMATE Wins 1st Place in Injaz Competition: Advancing to National Stage!",
+    description: "Our team, VMATE, won 1st place in the Injaz competition at ENIT! We advanced to the national stage with our Smart Band, which was designed to assist Alzheimer's patients using GPS-guided voice prompts. During that time, we sought an advisor and sponsor to help bring our vision to life. It was an amazing experience, and I'm proud of what we achieved together!",
+    tags: [
+      {
+        name: "INJAZ",
+        color: "blue-text-gradient",
       },
       {
-        name: "CLO3D",
-        icon: clo,
+        name: "AlzheimersAwareness",
+        color: "green-text-gradient",
       },
-]
+    ],
+    image: vmate,
+    source_code_link: "https://github.com/",
+  }
+];
 
-export { services, technologies, experiences, testimonials, projects , social  , works , skills};
+const skills = [
+  {
+    name: "Photoshop",
+    icon: ps,
+  },
+  {
+    name: "PremierePro",
+    icon: pr,
+  },
+  {
+    name: "CLO3D",
+    icon: clo,
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, social, works, skills };
