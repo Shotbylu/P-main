@@ -55,8 +55,8 @@ const Associative = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My Professional Associations</p>
-        <h2 className={`${styles.sectionHeadText}`}>Affiliations.</h2>
+        <p className={`${styles.sectionSubText} `}>Continouse Learning</p>
+        <h2 className={`${styles.sectionHeadText}`}>Certifications.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -64,7 +64,7 @@ const Associative = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Professional networks and organizations that I am associated with, showcasing my commitment to continuous learning and professional growth.
+          The world is constantly evolving, and I believe staying ahead means always learning.
         </motion.p>
       </div>
 
