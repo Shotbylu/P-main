@@ -192,6 +192,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Apr 2019 - Oct 2021",
     points: ["Durban, KZN",
+      "On site",
       "Check my LinkedIn for more details"
     ],
   },
@@ -200,7 +201,7 @@ const experiences = [
     company_name: "WWF South Africa",
     icon: tt,
     iconBg: "#E6DEDD",
-    date: "During July 2028",
+    date: "During July 2018",
     points: [
       "Contributed to community outreach initiatives aimed at raising awareness about environmental issues."
       ,"Check my LinkedIn for more details",
@@ -214,59 +215,59 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Java Moteur de Recherche",
+    name: "Visual Lab",
     description:
-"ava-based search engine clone optimized for handling folders with over 50,000 files containing multiple lines of text. ",    tags: [
-      {
-        name: "Java",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "optimisation",
-        color: "green-text-gradient",
-      },
-      {
-        name: "OOP",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: moteur,
-    source_code_link: "https://github.com/",
-  },
-
-  {
-    name: "Movie ticket system J2EE",
-    description:
-"A 𝑾𝒆𝒃 𝑨𝒑𝒑𝒍𝒊𝒄𝒂𝒕𝒊𝒐𝒏 for Cinema Seat Reservation, designed to be deployed on a 𝑾𝒊𝒍𝒅𝒇𝒍𝒚 application server",    tags: [
-      {
-        name: "Java",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "J2EE",
-        color: "green-text-gradient",
-      },
-      {
-        name: "EJB",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Wildfly",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: cinema ,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Olympics medal prediction",
-    description:"Country Medal Prediction Model This project uses machine learning to predict the number of medals a country will win in future international competitions",    tags: [
+"Visual Lab is a user-friendly tool that allows data scientists to upload datasets, automatically visualize and profile them, and build, train, and download machine learning models for regression and classification tasks, all without needing to write code. ",    tags: [
       {
         name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "LinearRegression",
+        name: "Machine Learning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Visualisation",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: moteur,
+    source_code_link: "https://www.linkedin.com/posts/lungelo-sibisi-6745aa21b_webappdevelopment-datavisualization-mlprojects-activity-7266689717465743360-ToQx?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdwXTgBHE8qq_054W6KCh8JNRX-M8NBYKE",
+  },
+
+  {
+    name: "Blog AP",
+    description:
+"My personal blog, built with Next.js and Tailwind CSS, simplifies sharing coding insights through Bits-of-Codes. It renders markdown content seamlessly, supports dark mode, and streamlines writing and publishing posts",    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Techblog",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cinema ,
+    source_code_link: "https://blog-app-theta-ebon.vercel.app/",
+  },
+  {
+    name: "Motion detection ping-pong",
+    description:"A motion-controlled Ping Pong game that uses real-time computer vision and motion detection",    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "opencv",
         color: "green-text-gradient",
       },
       {
@@ -275,7 +276,7 @@ const projects = [
       },
     ],
     image: medal,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.linkedin.com/posts/lungelo-sibisi-6745aa21b_my-latest-project-a-ping-pong-game-that-activity-7300142208844730369-9p9E?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdwXTgBHE8qq_054W6KCh8JNRX-M8NBYKE",
   },
   {
     name: "Hand Gesture-Based Zoom with OpenCV",
