@@ -154,67 +154,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Coporate Communications Specialist",
-    company_name: "SASOL ",
-    icon: bac,
-    iconBg: "#E6DEDD",
-    date: "Jun 2024 - ",
-    points: ["Present",
-      
-    ],
-  },
-  {
-    title: "End-User Computing Specialist",
-    company_name: "SOUTH32-Hillside",
-    icon: ipeit,
-    iconBg: "#E6DEDD",
-    date: "Jul 2023 - Jun 2024",
-    points: ["Richardsbay, KZN ",
-      "On site",
-      "Check my LinkedIn for more details"
-    ],
-  },
-  {
-    title: "Media & Marketing Officer",
-    company_name: "Empangeni High School",
-    icon: enit,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Jun 2023",
-    points: ["Empangeni, KZN",
-      "On site",   
-      "Check my LinkedIn for more details"
-    ],
-  },
-  {
-    title: "Sales Agent",
-    company_name: "CCI global",
-    icon: g2foss,
-    iconBg: "#E6DEDD",
-    date: "Apr 2019 - Oct 2021",
-    points: ["Durban, KZN",
-      "On site",
-      "Check my LinkedIn for more details"
-    ],
-  },
-  {
-    title: "Volunteer ",
-    company_name: "WWF South Africa",
-    icon: tt,
-    iconBg: "#E6DEDD",
-    date: "During July 2018",
-    points: [
-      "Contributed to community outreach initiatives aimed at raising awareness about environmental issues."
-      ,"Check my LinkedIn for more details",
-    ],
-  },
-];
-
-const testimonials = [
-  ""
-];
-
-const experiences = [
-  {
     title: "Baccalauréat Mathématique",
     company_name: "collége/Lycée Pilote Tataouine ",
     icon: bac,
