@@ -159,11 +159,7 @@ const experiences = [
     icon: bac,
     iconBg: "#E6DEDD",
     date: "Jun 2024 - ",
-    points: ["Sandton, Qauteng ",
-    points: ["Present",
-     "Hybrid",
-      
-    ],
+    points: ["Sandton, Qauteng ", "Present", "Hybrid"],
   },
   {
     title: "End-User Computing Specialsit",
