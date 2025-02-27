@@ -154,56 +154,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Baccalauréat Mathématique",
-    company_name: "collége/Lycée Pilote Tataouine ",
+    title: "Corporate Communications Officer | ESD Enablement",
+    company_name: "Sasol",
     icon: bac,
     iconBg: "#E6DEDD",
-    date: "sep 2014 - juin 2021",
-    points: ["Moyenne : 15.55",
-      
-    ],
+    date: "June 2024 - Present",
   },
   {
-    title: "Cycle Préparatoire",
-    company_name: "IPEIT",
+    title: "End-user Computing Specialist",
+    company_name: "SOUTH32-Hillside",
     icon: ipeit,
     iconBg: "#E6DEDD",
-    date: "Sep 2021 - Juin 2023",
-    points: ["MATH PHYISIQUE ",
-      "RANG 293",
-      "Check my LinkedIn for more details"
-    ],
+    date: "July 2023 - June 2024",
   },
   {
-    title: "Cycle Ingénieur : Informatique",
-    company_name: "ENIT",
+    title: "Media & Marketing Officer",
+    company_name: "Empangeni High School",
     icon: enit,
     iconBg: "#E6DEDD",
-    date: "Sep 2023 - 2026",
-    points: ["Currently Studying - 2nd Year",
-      "Check my LinkedIn for more details"
-    ],
+    date: "January 2023 - June 2026",
   },
   {
-    title: "Manageur Logistique pour : ENIT GOT THE FLAG 2.0",
-    company_name: "G2FOSS",
+    title: "Sales Agent",
+    company_name: "CCI Global",
     icon: g2foss,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - April 2024",
-    points: ["I held the position of Logistics Manager for ENIT GOT THE FLAG 2.0, where I coordinated resource management, task organization, and logistical follow-up to ensure the smooth execution of the event.",
-      "Check my LinkedIn for more details"
-    ],
-  },
-  {
-    title: "Stage d'observation ",
-    company_name: "Tunisie Télécome",
-    icon: tt,
-    iconBg: "#E6DEDD",
-    date: "During July 2024",
-    points: [
-      "I completed a worker internship at Tunisie Telecom, where I gained hands-on experience in radio equipment, transmission systems, energy management, and troubleshooting operations."
-      ,"Check my LinkedIn for more details",
-    ],
+    date: "April 2019 - October 2021",
   },
 ];
 
@@ -213,59 +189,59 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Java Moteur de Recherche",
+    name: "Visual Lab",
     description:
-"ava-based search engine clone optimized for handling folders with over 50,000 files containing multiple lines of text. ",    tags: [
+"Visual Lab is a user-friendly tool that allows data scientists to upload datasets, automatically visualize and profile them, and build, train, and download machine learning models for regression and classification tasks, all without needing to write code. ",    tags: [
       {
-        name: "Java",
+        name: "Machine Learning",
         color: "blue-text-gradient",
       },
       {
-        name: "optimisation",
+        name: "Data Science",
         color: "green-text-gradient",
       },
       {
-        name: "OOP",
+        name: "Visualisation",
         color: "pink-text-gradient",
       },
     ],
     image: moteur,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.linkedin.com/posts/lungelo-sibisi-6745aa21b_webappdevelopment-datavisualization-mlprojects-activity-7266689717465743360-ToQx?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdwXTgBHE8qq_054W6KCh8JNRX-M8NBYKE",
   },
 
   {
-    name: "Movie ticket system J2EE",
+    name: "Blog AP",
     description:
-"A 𝑾𝒆𝒃 𝑨𝒑𝒑𝒍𝒊𝒄𝒂𝒕𝒊𝒐𝒏 for Cinema Seat Reservation, designed to be deployed on a 𝑾𝒊𝒍𝒅𝒇𝒍𝒚 application server",    tags: [
+"My personal blog, built with Next.js and Tailwind CSS, simplifies sharing coding insights through Bits-of-Codes. It renders markdown content seamlessly, supports dark mode, and streamlines writing and publishing posts.",    tags: [
       {
         name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "J2EE",
+        name: "Next.js",
         color: "green-text-gradient",
       },
       {
-        name: "EJB",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
       {
-        name: "Wildfly",
+        name: "TechBlog",
         color: "pink-text-gradient",
       },
     ],
     image: cinema ,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://blog-app-theta-ebon.vercel.app/",
   },
   {
-    name: "Olympics medal prediction",
-    description:"Country Medal Prediction Model This project uses machine learning to predict the number of medals a country will win in future international competitions",    tags: [
+    name: "Vision detection:Motion-Controlled Ping Pong",
+    description:"Vision Pong is a motion-controlled Ping Pong game that uses real-time computer vision and motion detection—no controllers needed! Built with OpenCV, it tracks your arm movements via a webcam for seamless, interactive gameplay.",    tags: [
       {
         name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "LinearRegression",
+        name: "Computer Vision",
         color: "green-text-gradient",
       },
       {
@@ -274,7 +250,7 @@ const projects = [
       },
     ],
     image: medal,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.linkedin.com/posts/lungelo-sibisi-6745aa21b_my-latest-project-a-ping-pong-game-that-ugcPost-7300142140351737857-tj44?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdwXTgBHE8qq_054W6KCh8JNRX-M8NBYKE",
   },
   {
     name: "Hand Gesture-Based Zoom with OpenCV",
@@ -298,11 +274,11 @@ const projects = [
     source_code_link: "https://github.com/waeletteyeb/Hand-Gesture-Zoom-with-OpenCV",
   },
   {
-    name: "FullStack Shopping Website with Angular SpringBoot",
+    name: "Portfolio Website",
     description:
-"Joe's Robot Shop Entity is an e-commerce platform built with Angular (front end) and Spring Boot (back end).",    tags: [
+"My first portfolio website showcases my projects, skills, and blog, built with Next.js and Tailwind CSS. It features a sleek design, dark mode, and a markdown-powered blog for sharing coding insights.",    tags: [
       {
-        name: "Typescript",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
@@ -315,7 +291,7 @@ const projects = [
       },
     ],
     image: robot,
-    source_code_link: "https://github.com/waeletteyeb/TP4-ROBOT-SHOP",
+    source_code_link: "https://web-portfolio-mocha-mu.vercel.app/project",
   }
   
 ];
@@ -434,7 +410,6 @@ const works = [
         name: "GANs",
         color: "green-text-gradient",
       },
-
 
     ],
     image: genai ,
