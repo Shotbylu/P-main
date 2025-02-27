@@ -126,7 +126,7 @@ const Contact = () => {
         {/* Add Icons with Hover Animation */}
         <div className='mt-8 flex justify-center gap-6'>
           <a
-            href='https://www.linkedin.com/in/wael-etteyeb-1108b4290/'
+            href='https://www.linkedin.com/in/lungelo-sibisi-6745aa21b/'
             target='_blank'
             rel='noopener noreferrer'
             className='text-white text-3xl hover:text-[#0077b5] transition-all duration-300'
@@ -134,7 +134,7 @@ const Contact = () => {
             <FaLinkedin />
           </a>
           <a
-            href='https://github.com/waeletteyeb'
+            href='https://github.com/Shotbylu'
             target='_blank'
             rel='noopener noreferrer'
             className='text-white text-3xl hover:text-[#333] transition-all duration-300'
