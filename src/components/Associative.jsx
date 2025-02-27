@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -17,11 +17,10 @@ const ProjectCard = ({
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+        tiltMaxAngleX={45}
+        tiltMaxAngleY={45}
+        scale={1.05}
+        transitionSpeed={450}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
@@ -56,8 +55,8 @@ const Associative = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        
-        <h2 className={`${styles.sectionHeadText}`}>Certifications</h2>
+        <p className={`${styles.sectionSubText} `}>My Professional Associations</p>
+        <h2 className={`${styles.sectionHeadText}`}>Affiliations.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -65,12 +64,17 @@ const Associative = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
+          Professional networks and organizations that I am associated with, showcasing my commitment to continuous learning and professional growth.
         </motion.p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {works.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard
+            key={`project-${index}`}
+            index={index}
+            {...project}
+          />
         ))}
       </div>
     </>
