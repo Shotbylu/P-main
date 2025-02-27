@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-Hey everyone, I’m Lungelo. I'm a comms strategist by day with a passion for AI, NLP, LLMs, and Data Science. I’m always curious about how technologies like DeepSeek and ChatGPT work and love digging into their mechanics. Learning, building, and solving problems in AI keeps me going. Right after High School before diving into corporate comms and strategy, I spent three years in the trenches of a call center, making sales and learning firsthand how to connect, persuade, and deliver value. That foundation shaped everything I do today.
+Hey everyone, I’m Lungelo, a comms strategist by day with a passion for AI, NLP, LLMs, and Data Science. I’m always curious about how technologies like DeepSeek and ChatGPT work and love digging into their mechanics. Learning, building, and solving problems in AI keeps me going. Right after High School before diving into corporate comms and strategy, I spent three years in the trenches of a call center, making sales and learning firsthand how to connect, persuade, and deliver value. That foundation shaped everything I do today.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
