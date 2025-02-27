@@ -154,13 +154,12 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Coporate Communications Specialist",
+    itle: "Coporate Communications Specialist",
     company_name: "SASOL ",
     icon: bac,
     iconBg: "#E6DEDD",
     date: "Jun 2024 - Present",
-    points: ["Sandton, Qauteng ", "Hybrid"],
-    "Check my LinkedIn for more details"
+    points: ["Sandton, Qauteng ", "Hybrid", "Check my LinkedIn for more details"]
   },
   {
     title: "End-User Computing Specialsit",
