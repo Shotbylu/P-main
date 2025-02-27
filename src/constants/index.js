@@ -158,8 +158,9 @@ const experiences = [
     company_name: "SASOL ",
     icon: bac,
     iconBg: "#E6DEDD",
-    date: "Jun 2024 - ",
-    points: ["Sandton, Qauteng ", "Present", "Hybrid"],
+    date: "Jun 2024 - Present",
+    points: ["Sandton, Qauteng ", "Hybrid"],
+    "Check my LinkedIn for more details"
   },
   {
     title: "End-User Computing Specialsit",
@@ -375,8 +376,8 @@ const works = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Intermediate Deep Learning with PyTorch",
-    description:"DataCamp "   ,
+    name: "Machine Learning Foundations: Statistics",
+    description:"LinkedIn Learning "   ,
      tags: [
       {
         name: "Deep Learning",
@@ -393,8 +394,8 @@ const works = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Understanding Artificial Intelligence",
-    description:"DataCamp"   ,
+    name: "Marketing Insider",
+    description:"LinkedIn Marketing Labs"   ,
      tags: [
       {
         name: "AI",
@@ -405,8 +406,8 @@ const works = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "CCNA: Introduction to Networks",
-    description:"offered by Ecole Nationale d'Ingénieurs de Tunis (ENIT) through the Cisco Networking Academy program."   ,
+    name: "Learning Data Analytics: 1 Foundations",
+    description:"LinkedIn Learning."   ,
      tags: [
       {
         name: "Cisco",
