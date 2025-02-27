@@ -159,6 +159,7 @@ const experiences = [
     icon: bac,
     iconBg: "#E6DEDD",
     date: "Jun 2024 - ",
+    points: ["Sandton, Qauteng ",
     points: ["Present",
      "Hybrid",
       
@@ -216,19 +217,19 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Java Moteur de Recherche",
+    name: "Visual Lab",
     description:
-"ava-based search engine clone optimized for handling folders with over 50,000 files containing multiple lines of text. ",    tags: [
+"Visual Lab is a user-friendly tool that allows data scientists to upload datasets, automatically visualize and profile them, and build, train, and download machine learning models for regression and classification tasks, all without needing to write code. ",    tags: [
       {
-        name: "Java",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "optimisation",
+        name: "Machine Learning",
         color: "green-text-gradient",
       },
       {
-        name: "OOP",
+        name: "Visualisation",
         color: "pink-text-gradient",
       },
     ],
@@ -237,23 +238,23 @@ const projects = [
   },
 
   {
-    name: "Movie ticket system J2EE",
+    name: "Blog AP",
     description:
-"A 𝑾𝒆𝒃 𝑨𝒑𝒑𝒍𝒊𝒄𝒂𝒕𝒊𝒐𝒏 for Cinema Seat Reservation, designed to be deployed on a 𝑾𝒊𝒍𝒅𝒇𝒍𝒚 application server",    tags: [
+"My personal blog, built with Next.js and Tailwind CSS, simplifies sharing coding insights through Bits-of-Codes. It renders markdown content seamlessly, supports dark mode, and streamlines writing and publishing posts.",    tags: [
       {
-        name: "Java",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "J2EE",
+        name: "Next.js",
         color: "green-text-gradient",
       },
       {
-        name: "EJB",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
       {
-        name: "Wildfly",
+        name: "Techblog",
         color: "pink-text-gradient",
       },
     ],
@@ -261,14 +262,14 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Olympics medal prediction",
-    description:"Country Medal Prediction Model This project uses machine learning to predict the number of medals a country will win in future international competitions",    tags: [
+    name: "Computer Vision Motion-Controlled Ping Pong",
+    description:"A motion-controlled Ping Pong game that uses real-time computer vision and motion detection—no controllers needed!",    tags: [
       {
         name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "LinearRegression",
+        name: "Opencv",
         color: "green-text-gradient",
       },
       {
