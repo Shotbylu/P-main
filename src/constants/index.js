@@ -213,6 +213,65 @@ const testimonials = [
   ""
 ];
 
+const experiences = [
+  {
+    title: "Baccalauréat Mathématique",
+    company_name: "collége/Lycée Pilote Tataouine ",
+    icon: bac,
+    iconBg: "#E6DEDD",
+    date: "sep 2014 - juin 2021",
+    points: ["Moyenne : 15.55",
+      
+    ],
+  },
+  {
+    title: "Cycle Préparatoire",
+    company_name: "IPEIT",
+    icon: ipeit,
+    iconBg: "#E6DEDD",
+    date: "Sep 2021 - Juin 2023",
+    points: ["MATH PHYISIQUE ",
+      "RANG 293",
+      "Check my LinkedIn for more details"
+    ],
+  },
+  {
+    title: "Cycle Ingénieur : Informatique",
+    company_name: "ENIT",
+    icon: enit,
+    iconBg: "#E6DEDD",
+    date: "Sep 2023 - 2026",
+    points: ["Currently Studying - 2nd Year",
+      "Check my LinkedIn for more details"
+    ],
+  },
+  {
+    title: "Manageur Logistique pour : ENIT GOT THE FLAG 2.0",
+    company_name: "G2FOSS",
+    icon: g2foss,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - April 2024",
+    points: ["I held the position of Logistics Manager for ENIT GOT THE FLAG 2.0, where I coordinated resource management, task organization, and logistical follow-up to ensure the smooth execution of the event.",
+      "Check my LinkedIn for more details"
+    ],
+  },
+  {
+    title: "Stage d'observation ",
+    company_name: "Tunisie Télécome",
+    icon: tt,
+    iconBg: "#E6DEDD",
+    date: "During July 2024",
+    points: [
+      "I completed a worker internship at Tunisie Telecom, where I gained hands-on experience in radio equipment, transmission systems, energy management, and troubleshooting operations."
+      ,"Check my LinkedIn for more details",
+    ],
+  },
+];
+
+const testimonials = [
+  ""
+];
+
 const projects = [
   {
     name: "Java Moteur de Recherche",
@@ -271,7 +330,8 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-@@ -275,7 +276,7 @@ const projects = [
+        name: "supervised learning",
+        color: "pink-text-gradient",
       },
     ],
     image: medal,
