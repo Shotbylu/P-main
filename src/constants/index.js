@@ -154,7 +154,7 @@ const technologies = [
 
 const experiences = [
   {
-    itle: "Coporate Communications Specialist",
+    title: "Coporate Communications Specialist",
     company_name: "SASOL ",
     icon: bac,
     iconBg: "#E6DEDD",
