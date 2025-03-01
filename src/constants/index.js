@@ -330,7 +330,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: robot,
+    image: Pweb,
     source_code_link: "https://web-portfolio-mocha-mu.vercel.app/",
   }
   
@@ -341,21 +341,21 @@ const projects = [
 
 const works = [
   {
-    name: "Understanding Machine Learning",
+    name: "Statistics 101",
     description:
-"DataCamp",
+"IBM",
     tags: [
       {
-        name: "Machine Learning",
+        name: "Descriptive Statistics",
         color: "blue-text-gradient",
       },
     ],
     image: mlintro,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.credly.com/users/lungelo-sibisi",
   },
 
   {
-    name: "Supervised Learning with scikit-learn",
+    name: "Supervised Learning with scikit ",
     description:"DataCamp"   ,
      tags: [
       {
@@ -370,7 +370,7 @@ const works = [
 
     ],
     image: mlsup ,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.credly.com/users/lungelo-sibisi",
   },
   {
     name: " Ibtroduction to Deep Learning with PyTorch",
@@ -388,7 +388,7 @@ const works = [
 
     ],
     image: dlintro ,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.credly.com/users/lungelo-sibisi",
   },
   {
     name: "Machine Learning Foundations: Statistics",
@@ -406,7 +406,7 @@ const works = [
 
     ],
     image: dlint ,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.credly.com/users/lungelo-sibisi",
   },
   {
     name: "Marketing Insider",
@@ -418,7 +418,7 @@ const works = [
       },
     ],
     image: ai ,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.credly.com/users/lungelo-sibisi",
   },
   {
     name: "Learning Data Analytics: 1 Foundations",
@@ -436,7 +436,7 @@ const works = [
 
     ],
     image: ccna ,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.credly.com/users/lungelo-sibisi",
   },
   {
     name: "Generative AI concepts",
@@ -454,7 +454,7 @@ const works = [
 
     ],
     image: genai ,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.credly.com/users/lungelo-sibisi",
   },
 
   ];
