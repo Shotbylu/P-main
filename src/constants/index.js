@@ -213,7 +213,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Visual Lab",
+    name: "Visual-Lab",
     description:
 "Visual Lab is a user-friendly tool that allows data scientists to upload datasets, automatically visualize and profile them, and build, train, and download machine learning models for regression and classification tasks, all without needing to write code. ",    tags: [
       {
