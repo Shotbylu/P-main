@@ -294,7 +294,7 @@ const projects = [
     source_code_link: "https://github.com/waeletteyeb/Hand-Gesture-Zoom-with-OpenCV",
   },
   {
-    name: "E-commerce Website made with Angular SpringBoot",
+    name: "E-commerce Website",
     description:
 "Sibisi & Co is a dynamic e-commerce platform leveraging Angular and Spring Boot. It offers seamless shopping with a sleek UI, secure transactions, and scalable architecture. Users enjoy real-time updates, smooth navigation, and personalized experiences.",    tags: [
       {
