@@ -230,7 +230,7 @@ const projects = [
       },
     ],
     image: moteur,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.linkedin.com/posts/lungelo-sibisi-6745aa21b_webappdevelopment-datavisualization-mlprojects-activity-7266689717465743360-ToQx?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdwXTgBHE8qq_054W6KCh8JNRX-M8NBYKE",
   },
 
   {
@@ -251,7 +251,7 @@ const projects = [
       },
     ],
     image: cinema ,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://blog-app-theta-ebon.vercel.app/",
   },
   {
     name: "Computer Vision Motion-Controlled Ping Pong",
@@ -270,7 +270,7 @@ const projects = [
       },
     ],
     image: medal,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.linkedin.com/posts/lungelo-sibisi-6745aa21b_my-latest-project-a-ping-pong-game-that-activity-7300142208844730369-9p9E?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdwXTgBHE8qq_054W6KCh8JNRX-M8NBYKE",
   },
   {
     name: "Hand Gesture-Based Zoom with OpenCV",
@@ -294,9 +294,9 @@ const projects = [
     source_code_link: "https://github.com/waeletteyeb/Hand-Gesture-Zoom-with-OpenCV",
   },
   {
-    name: "FullStack Shopping Website with Angular SpringBoot",
+    name: "E-commerce Website made with Angular SpringBoot",
     description:
-"Joe's Robot Shop Entity is an e-commerce platform built with Angular (front end) and Spring Boot (back end).",    tags: [
+"Sibisi & Co is a dynamic e-commerce platform leveraging Angular and Spring Boot. It offers seamless shopping with a sleek UI, secure transactions, and scalable architecture. Users enjoy real-time updates, smooth navigation, and personalized experiences.",    tags: [
       {
         name: "Typescript",
         color: "blue-text-gradient",
@@ -312,6 +312,26 @@ const projects = [
     ],
     image: robot,
     source_code_link: "https://github.com/waeletteyeb/TP4-ROBOT-SHOP",
+  },
+   {
+    name: "Portfolio website #1",
+    description:
+"My first portfolio website showcased my projects, skills, and blog posts. Built with Next.js and Tailwind CSS, it featured a clean design, dark mode, and markdown-based blogging..",    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Java",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next.jsr",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: robot,
+    source_code_link: "https://web-portfolio-mocha-mu.vercel.app/",
   }
   
 ];
