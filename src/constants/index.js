@@ -294,7 +294,7 @@ const projects = [
     source_code_link: "https://github.com/waeletteyeb/Hand-Gesture-Zoom-with-OpenCV",
   },
   {
-    name: "E-commerce Website",
+    name: "E-commerce Website (FullStack)",
     description:
 "Sibisi & Co is a dynamic e-commerce platform leveraging Angular and Spring Boot. It offers seamless shopping with a sleek UI, secure transactions, and scalable architecture. Users enjoy real-time updates, smooth navigation, and personalized experiences.",    tags: [
       {
@@ -335,15 +335,15 @@ const works = [
   },
 
   {
-    name: "Supervised Learning with scikit ",
-    description:"DataCamp"   ,
+    name: "Deep Learning using TensorFlow",
+    description:"IBM"   ,
      tags: [
       {
         name: "Machine Learning",
         color: "blue-text-gradient",
       },
       {
-        name: "Scikit-Learn",
+        name: "TensorFlow",
         color: "green-text-gradient",
       },
 
@@ -353,15 +353,15 @@ const works = [
     source_code_link: "https://www.credly.com/users/lungelo-sibisi",
   },
   {
-    name: " Ibtroduction to Deep Learning with PyTorch",
-    description:"DataCamp"   ,
+    name: " Cloud Computing Fundamentals",
+    description:"IBM"   ,
      tags: [
       {
-        name: "Deep Learning",
+        name: "Cloud Computing",
         color: "blue-text-gradient",
       },
       {
-        name: "Pytorch",
+        name: "Cloud Kubernetes Service ",
         color: "green-text-gradient",
       },
 
@@ -371,7 +371,7 @@ const works = [
     source_code_link: "https://www.credly.com/users/lungelo-sibisi",
   },
   {
-    name: "Machine Learning Foundations: Statistics",
+    name: "Machine Learning Foundations: Statists",
     description:"LinkedIn Learning "   ,
      tags: [
       {
@@ -419,8 +419,8 @@ const works = [
     source_code_link: "https://www.credly.com/users/lungelo-sibisi",
   },
   {
-    name: "Generative AI concepts",
-    description:"DataCamp"   ,
+    name: "Advance Kubernetes Operators ",
+    description:"IBM"   ,
      tags: [
       {
         name: "Genai",
