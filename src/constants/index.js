@@ -332,7 +332,7 @@ const projects = [
     ],
     image: Pweb,
     source_code_link: "https://web-portfolio-mocha-mu.vercel.app/",
-  }
+  },
   
 ];
 
