@@ -200,8 +200,8 @@ const experiences = [
     icon: tt,
     iconBg: "#E6DEDD",
     date: "July 2018",
-    points: [
-      
+    points: ["Arboretum, KZN.",
+      "On Site",
       ,"Check my LinkedIn for more details",
     ],
   },
@@ -246,10 +246,6 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "TailwindCSS",
-        color: "pink-text-gradient",
-      },
-      {
         name: "Techblog",
         color: "pink-text-gradient",
       },
@@ -259,7 +255,7 @@ const projects = [
   },
   {
     name: "Computer Vision Motion-Controlled Ping Pong",
-    description:"A motion-controlled Ping Pong game that uses real-time computer vision and motion detection—no controllers needed!",    tags: [
+    description:"A motion-controlled Ping Pong game that uses real-time computer vision and motion detection—no controllers needed! its fun and interactive.",    tags: [
       {
         name: "Python",
         color: "blue-text-gradient",
@@ -279,7 +275,7 @@ const projects = [
   {
     name: "Hand Gesture-Based Zoom with OpenCV",
     description:
-"This project demonstrates an interactive zoom effect controlled by hand gestures using OpenCV and cvzone.HandTrackingModule. Users can resize an image in real-time by moving their hands in front of a webcam. The zoom gesture is detected when both hands are visible, and specific finger combinations are used.",
+"This project shows a zoom effect via hand gestures with OpenCV and cvzone.HandTrackingModule. Users alter image size live using a webcam. Zoom triggers when both hands appear, with set finger combos.",
     tags: [
       {
         name: "python",
@@ -397,7 +393,7 @@ const works = [
     description:"LinkedIn Marketing Labs"   ,
      tags: [
       {
-        name: "AI",
+        name: "Marketing",
         color: "blue-text-gradient",
       },
     ],
@@ -409,11 +405,11 @@ const works = [
     description:"LinkedIn Learning."   ,
      tags: [
       {
-        name: "Cisco",
+        name: "Data analytics",
         color: "blue-text-gradient",
       },
       {
-        name: "Basics",
+        name: "Fundementals",
         color: "green-text-gradient",
       },
 
@@ -446,12 +442,12 @@ const works = [
 
   const social = [
     {
-      name: "Competitive Programming Competition ",
+      name: "SASOL Siyakha Solar Energy Initiative Campaign ",
       description:
-  "I took part in League of Coders, a competitive programming competition at ENIT, organized by my club G2FOSS. It was a really good experience , challenging but fun. I got to test my problem-solving skills under pressure and compete with other talented coders. It was a great way to learn, collaborate, and push my limits. Definitely an experience worth having!",
+  "Spearheaded communications efforts for the Sasol Siyakha Solar Energy Campaign, promoting renewable energy adoption among SMEs. Developed compelling messaging and marketing materials to highlight the campaign’s impact on small business sustainability.Engaged stakeholders through targeted outreach, ensuring alignment with Sasol’s Enterprise & Supplier Development (ESD) objectives.",
       tags: [
         {
-          name: "C++",
+          name: "Communications",
           color: "blue-text-gradient",
         },
       ],
@@ -460,15 +456,15 @@ const works = [
     },
   
     {
-      name: " G2foss Golden Member Certification ",
-      description:"The G2FOSS Golden Member Certification recognizes my active contribution and dedication to the G2FOSS  community at ENIT. This certification highlights my involvement in organizing events, promoting open-source initiatives, and participating in competitive programming and development activities within the club. "   ,
+      name: " Enterprise & Supplier Development (ESD) Awareness Campaign ",
+      description:"Collaborated with design teams to refresh branding elements, including digital assets, presentations, and marketing materials. Created compelling content for internal and external stakeholders, effectively communicating the value of ESD initiatives.Developed and executed a strategic communication plan to reposition ESD, ensuring alignment with Sasol’s broader business objectives. "   ,
        tags: [
         {
-          name: "Social",
+          name: "Marketing",
           color: "blue-text-gradient",
         },
         {
-          name: "G2foss",
+          name: "PR",
           color: "green-text-gradient",
         },
   
@@ -478,7 +474,7 @@ const works = [
       source_code_link: "https://github.com/",
     },
     {
-      name: "VMATE Wins 1st Place in Injaz Competition: Advancing to National Stage!",
+      name: "Enterprise & Supplier Development (ESD) Rebranding Campaign",
       description:"Our team, VMATE, won 1st place in the Injaz competition at ENIT! We advanced to the national stage with our Smart Band, which was designed to assist Alzheimer’s patients using GPS-guided voice prompts. During that time, we sought an advisor and sponsor to help bring our vision to life. It was an amazing experience, and I’m proud of what we achieved together!"   ,
        tags: [
         {
