@@ -313,26 +313,6 @@ const projects = [
     image: robot,
     source_code_link: "https://github.com/waeletteyeb/TP4-ROBOT-SHOP",
   },
-   {
-    name: "Portfolio website #1",
-    description:
-"My first portfolio website showcased my projects, skills, and blog posts. Built with Next.js and Tailwind CSS, it featured a clean design, dark mode, and markdown-based blogging..",    tags: [
-      {
-        name: "Javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Java",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Next.jsr",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Pweb,
-    source_code_link: "https://web-portfolio-mocha-mu.vercel.app/",
-  },
   
 ];
 
