@@ -38,7 +38,7 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATEID, // Use import.meta.env for Vite
         {
           from_name: form.name,
-          to_name: "wael", // Replace with your name or a static value
+          to_name: "Lungelo", // Replace with your name or a static value
           from_email: form.email,
           to_email: import.meta.env.VITE_APP_EMAILJS_RECEIVERID, // Use import.meta.env for Vite
           message: form.message,
@@ -88,7 +88,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="Type name here"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -99,7 +99,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Type web address here"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -110,7 +110,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Message?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
