@@ -79,11 +79,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          These projects showcase my advanced expertise in software development, graphic design, and end-to-end system implementation. Each project is a testament to my ability to design intuitive user interfaces, architect scalable solutions, and seamlessly integrate diverse technologies. From conceptualization to deployment, I excel in translating complex problems into elegant, high-performance solutions. Accompanied by code repository links, these projects highlight my technical proficiency, creative problem-solving, and strategic approach to both design and implementation.
         </motion.p>
       </div>
 
