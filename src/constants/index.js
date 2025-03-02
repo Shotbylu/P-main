@@ -444,7 +444,7 @@ const works = [
     {
       name: "SASOL Siyakha Solar Energy Initiative Campaign ",
       description:
-  "Spearheaded communications efforts for the Sasol Siyakha Solar Energy Campaign, promoting renewable energy adoption among SMEs. Developed compelling messaging and marketing materials to highlight the campaign’s impact on small business sustainability.Engaged stakeholders through targeted outreach, ensuring alignment with Sasol’s Enterprise & Supplier Development (ESD) objectives.",
+  "Spearheaded communications efforts for the Sasol Siyakha Solar Energy Campaign, promoting renewable energy adoption among SMEs. Developed compelling messaging and marketing materials to highlight the campaign’s impact on small business sustainability. Engaged stakeholders through targeted outreach, ensuring alignment with Sasol’s Enterprise & Supplier Development (ESD) objectives.",
       tags: [
         {
           name: "Communications",
@@ -457,7 +457,7 @@ const works = [
   
     {
       name: " Enterprise & Supplier Development (ESD) Awareness Campaign ",
-      description:"Collaborated with design teams to refresh branding elements, including digital assets, presentations, and marketing materials. Created compelling content for internal and external stakeholders, effectively communicating the value of ESD initiatives.Developed and executed a strategic communication plan to reposition ESD, ensuring alignment with Sasol’s broader business objectives. "   ,
+      description:"Collaborated with design teams to refresh branding elements, including digital assets, presentations, and marketing materials. Created compelling content for internal and external stakeholders, effectively communicating the value of ESD initiatives. Developed and executed a strategic communication plan to reposition ESD, ensuring alignment with Sasol’s broader business objectives. "   ,
        tags: [
         {
           name: "Marketing",
@@ -474,15 +474,15 @@ const works = [
       source_code_link: "https://github.com/",
     },
     {
-      name: "Enterprise & Supplier Development (ESD) Rebranding Campaign",
-      description:"Our team, VMATE, won 1st place in the Injaz competition at ENIT! We advanced to the national stage with our Smart Band, which was designed to assist Alzheimer’s patients using GPS-guided voice prompts. During that time, we sought an advisor and sponsor to help bring our vision to life. It was an amazing experience, and I’m proud of what we achieved together!"   ,
+      name: "Women in Engineering Programme ",
+      description:"Crafted messaging that highlighted the importance of women in engineering, sharing inspiring stories and industry insights. played a crucial role in organizing the event, ensuring a well-structured agenda that included keynote speeches, panel discussions, and networking sessions. ensured seamless event logistics, coordinated with speakers, and managed audience engagement on the day."   ,
        tags: [
         {
-          name: "INJAZ",
+          name: "Women in Engineering",
           color: "blue-text-gradient",
         },
         {
-          name: "AlzheimersAwareness",
+          name: "Champaign",
           color: "green-text-gradient",
         },
   
