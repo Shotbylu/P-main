@@ -442,7 +442,7 @@ const works = [
 
   const social = [
     {
-      name: "SASOL Siyakha Solar Energy Initiative Campaign ",
+      name: "SASOL Siyakha Solar Energy Initiative Campaign. ",
       description:
   "Spearheaded communications efforts for the Sasol Siyakha Solar Energy Campaign, promoting renewable energy adoption among SMEs. Developed compelling messaging and marketing materials to highlight the campaign’s impact on small business sustainability. Engaged stakeholders through targeted outreach, ensuring alignment with Sasol’s Enterprise & Supplier Development (ESD) objectives.",
       tags: [
@@ -456,7 +456,7 @@ const works = [
     },
   
     {
-      name: " Enterprise & Supplier Development (ESD) Awareness Campaign ",
+      name: " Enterprise & Supplier Development (ESD) Awareness Campaign. ",
       description:"Collaborated with design teams to refresh branding elements, including digital assets, presentations, and marketing materials. Created compelling content for internal and external stakeholders, effectively communicating the value of ESD initiatives. Developed and executed a strategic communication plan to reposition ESD, ensuring alignment with Sasol’s broader business objectives. "   ,
        tags: [
         {
@@ -474,7 +474,7 @@ const works = [
       source_code_link: "https://github.com/",
     },
     {
-      name: "Women in Engineering Programme ",
+      name: "Women in Engineering Programme. ",
       description:"Crafted messaging that highlighted the importance of women in engineering, sharing inspiring stories and industry insights. played a crucial role in organizing the event, ensuring a well-structured agenda that included keynote speeches, panel discussions, and networking sessions. ensured seamless event logistics, coordinated with speakers, and managed audience engagement on the day."   ,
        tags: [
         {
