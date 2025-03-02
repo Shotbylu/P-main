@@ -23,7 +23,7 @@ const Others = () => {
     <p className={`${styles.sectionSubText} text-center`}>
   Check my{" "}
   <a
-    href='https://www.upwork.com/freelancers/~01b4d033ee6e2b3425'
+    href='https://www.upwork.com/freelancers/~019b9bcbc8ab964978?mp_source=share'
     target='_blank'
     rel='noopener noreferrer'
     className='text-white text-3xl hover:text-[#34D399] transition-all duration-300'
