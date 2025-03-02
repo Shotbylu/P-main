@@ -291,7 +291,7 @@ const projects = [
       },
     ],
     image: opencv1,
-    source_code_link: "https://github.com/waeletteyeb/Hand-Gesture-Zoom-with-OpenCV",
+    source_code_link: "https://github.com/Shotbylu/Computer-vision-motion-detection-zoom",
   },
   {
     name: "E-commerce Website (FullStack)",
